@@ -1,0 +1,118 @@
+body
+{
+	background-color: black;
+	background-image: url("http://mc.icannt.org/images/bg.jpg");
+	background-size: stretch;
+	background-repeat: repeat y;
+	background-position: top center;
+	font-family: "Arial"
+}
+
+a
+{
+	color: #7f2222;
+}
+
+h2
+{
+	font-size: 20pt;
+	margin: 0;
+	border-bottom: 1px dashed #2f4456;
+	margin-bottom: 10px;
+}
+
+p
+{
+	display: block;
+}
+
+#container
+{
+	width: 880px;
+	background: blue;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 5px solid #819eb2;
+	box-shadow: 5px 5px 10px black;
+	background: white;
+	padding: 10px;
+}
+
+#logo
+{
+	height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input[type=submit]
+{
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
+	margin-top: 10px;
+	height: 30px;
+	color: #2f4456;
+}
+
+.label
+{
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #2f4456;
+}
+
+.question
+{
+	font-weight: bold;
+	color: #2f4456;
+}
+
+.enter {
+	width : 390px;
+	height: 30px;
+	color: #417394;
+	padding-left: 5px;
+}
+
+.enterbad {
+	width : 390px;
+	height: 30px;
+	color: #7f2222;
+	padding-left: 5px;
+}
+
+.enteractive {
+	width : 390px;
+	height: 30px;
+	color: #417394;
+	padding-left: 5px;
+}
+
+.text {
+	font-size:24px;
+	color:#FFF;
+	margin: 0;
+	margin-bottom: 10px;
+	padding:5px;
+	text-shadow:-1px 1px #111;
+	text-align:center;
+	background-color:#AFA;
+}
+
+.failedtext {
+	font-size:24px;
+	color:#FFF;
+	margin: 0;
+	margin-bottom: 10px;
+	padding:5px;
+	text-shadow:-1px 1px #111;
+	text-align:center;
+	background-color:#FAA;
+}
+
+.hidden {
+	display: none;
+}
